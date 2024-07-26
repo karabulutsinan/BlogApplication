@@ -1,0 +1,78 @@
+﻿@using BlogApplication.Models.Auth;
+@model RegisterDTO
+@{
+	Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+@section Scripts {
+
+	@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+	{
+								<script type="text/javascript">
+									Swal.fire({
+									  icon: "error",
+									  title: "@ViewBag.ErrorMessage",
+									  showConfirmButton: false,
+									  timer: 1500
+									});
+								</script>
+	}
+
+	@if (!string.IsNullOrEmpty(ViewBag.Message))
+	{
+										<script type="text/javascript">
+											Swal.fire({
+											  icon: "success",
+											  title: "@ViewBag.Message",
+											  showConfirmButton: false,
+											  timer: 1500,
+											  didClose:(toast)=>{
+												  window.location.href="/";
+											  }
+											});
+										</script>
+	}
+}
+
+
+<div class="bg">
+
+
+</div>
+
+ <main class="form-signin">
+
+	  <h1 class="h3">Sign Up</h1>
+
+	<form action="Register" method="POST">
+
+	  <div class="form-floating">
+		<input type="text" class="form-control" id="floatingInput" required asp-for="UserName" >
+		<label for="floatingInput">UserName</label>
+	  </div>
+	  <br/>
+	  <div class="form-floating">
+		<input type="text" class="form-control" id="floatingInput" required asp-for="Name" >
+		<label for="floatingInput">Name</label>
+	  </div>
+	  <br />
+	   <div class="form-floating">
+		<input type="text" class="form-control" id="floatingInput" required asp-for="Surname" >
+		<label for="floatingInput">Surname</label>
+	  </div>
+	  <br />
+	   <div class="form-floating">
+		<input type="text" class="form-control" id="floatingInput" required asp-for="Password" >
+		<label for="floatingInput">Password</label>
+	  </div>
+	  <br />
+	   <div class="form-floating">
+		<input type="text" class="form-control" id="floatingInput" required asp-for="Email" >
+		<label for="floatingInput">Email</label>
+	  </div>
+	  <br />
+	  <button class="w-100 btn btn-lg" type="submit">Create User</button>
+	  </div>
+	</form>
+		  <p class="copyright">&copy; 2021</p>
+  </main>

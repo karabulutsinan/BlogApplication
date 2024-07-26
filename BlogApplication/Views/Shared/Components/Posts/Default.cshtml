@@ -1,0 +1,52 @@
+﻿@model List<Post> 
+
+@if (Model != null && Model.Count > 0)
+{
+		<div class="bg-white p-2  border border-primary rounded-3 ">
+			<h5 class="display-6 ">Populer Posts</h5>
+		</div>
+		<div class="text-end  ">
+			<button class="rounded border-0 m-2 "><a asp-action="Index" asp-controller="Tag"  class="text-decoration-none text-dark">Taglere Git</a></button>
+		</div>
+	@foreach (var item in Model)
+	{
+							
+							<div class="row">
+
+							
+							<div class="card bg-transparent border-0 mb-3 ">
+								<div class="row bg-white p-3 border border-primary rounded-3 ">
+								<div class="col-4">
+									<img src="@item.ImageURL" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="col-8">
+									<h6 class="fst-italic">@@@item.User.Username</h6>
+									<h5 ><a asp-action="Details"  asp-route-id="@item.Id" class="btn btn-link">@item.Title</a></h5>
+									<h6 class="card-subtitle mb-2 text-muted">>@item.Category.Name</h6>
+									<p>
+								@{
+							
+									var plainTextContent = System.Text.RegularExpressions.Regex.Replace(item.ContentHTML, "<.*?>", ""); // Remove HTML tags
+									var truncatedContent = plainTextContent.Length > 100
+										? plainTextContent.Substring(0, 150) + "..."
+										: plainTextContent;
+								}
+								@truncatedContent
+									</p>
+									
+									<p> @foreach (var tag in item.Tags)
+										{
+											<a href="#" class="badge bg-primary bg-opacity-5 text-white mb-2 fw-bold">@tag.Name</a>
+										}		
+										
+										</p>
+									
+									</div>
+								</div>						
+							</div>
+							
+							</div>
+							
+	}
+}
+

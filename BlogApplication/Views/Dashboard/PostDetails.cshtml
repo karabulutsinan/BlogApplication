@@ -1,0 +1,65 @@
+﻿@model Post
+
+<form asp-action="PostDetails" method="post" >
+    <input type="hidden" asp-for="Id" />
+
+    <label class="form-label" >Title</label>
+    <input type="text" class="form-control" asp-for="Title" required />
+    <br />
+
+    <label class="form-label">ContentHTML</label>
+    @* <input type="text" class="form-control" asp-for="ContentHTML" required /> *@
+        <textarea style="width:1296px; height:300px;" type="text" class="form-control" asp-for="ContentHTML" required></textarea>
+
+    <br />
+
+    <label class="form-label">Description</label>
+    <input type="text" class="form-control" asp-for="Description" required />
+    <br />
+
+    <label class="form-label">ImageURL</label> 
+    <input type="text" class="form-control" asp-for="ImageURL" required />
+    <br />
+
+    <label class="form-label">ShowOnHome</label>
+    <input type="checkbox" class="form-check" asp-for="ShowOnHome"  />
+    <br />
+
+    <label class="form-label">Category</label>
+    <select class="form-select" asp-for="CategoryId" required>
+        <option selected disabled value="">Choose...</option>
+        @foreach (var category in ViewBag.Categories)
+        {
+                    <option value="@category.Id">@category.Name</option>
+        }
+    </select>
+    <br />
+
+    <label class="form-label">Tags</label>
+    <select multiple class="form-select" asp-for="Tags" required>
+        <option  disabled value="">Choose...</option>
+        @foreach (Tag tag in ViewBag.Tags)
+        {
+            var enes = Model.Tags.Select(x => x.Id).Contains(tag.Id);
+            if (enes)
+            {
+                <option value="@tag.Id"
+                        selected>
+                    @tag.Name
+                </option>
+            }
+            else
+            {
+                <option value="@tag.Id">
+                        @tag.Name
+                </option> 
+            }
+
+        }
+    </select>
+    <br />
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+</form>
+
+

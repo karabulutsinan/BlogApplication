@@ -1,0 +1,15 @@
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\bin\Debug\net8.0\BlogApplication.Persistence.deps.json
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\bin\Debug\net8.0\BlogApplication.Persistence.dll
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\bin\Debug\net8.0\BlogApplication.Persistence.pdb
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\bin\Debug\net8.0\BlogApplication.Domain.dll
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\bin\Debug\net8.0\BlogApplication.Domain.pdb
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogApplication.Persistence.csproj.AssemblyReference.cache
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogApplication.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogApplication.Persistence.AssemblyInfoInputs.cache
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogApplication.Persistence.AssemblyInfo.cs
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogApplication.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogAppl.FEC6B3ED.Up2Date
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogApplication.Persistence.dll
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\refint\BlogApplication.Persistence.dll
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\BlogApplication.Persistence.pdb
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Persistence\obj\Debug\net8.0\ref\BlogApplication.Persistence.dll

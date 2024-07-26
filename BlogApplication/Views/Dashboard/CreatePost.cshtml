@@ -1,0 +1,42 @@
+﻿@model Post
+
+<form asp-action="CreatePost">
+	<label class="form-label">Title</label>
+	<input type="text" class="form-control"  name="Title" required></input>
+	<br />
+	<label class="form-label" >ContentHTML</label>
+	<textarea style="width:1296px; height:300px;" type="textarea" class="form-control" name="ContentHTML" required></textarea>
+	<br />
+	<label class="form-label">Description</label>
+	<input type="text" class="form-control" name="Description" required></input>
+	<br />
+	<label  class="form-label">ImageURL</label>
+	<input type="text" class="form-control" name="ImageURL" required></input>
+	<br />
+	<label class="form-label">ShowOnHome</label>
+	<input type="checkbox" asp-for="@Model.ShowOnHome" class="form-check" name="ShowOnHome"></input>
+
+	<label class="form-label">Category</label>
+	<select  name="CategoryId" class="form-select" required>
+	  <option selected disabled value="">Choose...</option>
+		@foreach (Category i in ViewBag.Categories)
+		{
+			<option value="@i.Id">@i.Name</option>
+		}
+	</select>
+
+	<label class="form-label">Tags</label>
+	<select multiple name="Tags" class="form-select" required>
+	  <option selected disabled value="">Choose...</option>
+		@foreach (Tag i in ViewBag.Tags)
+		{
+				<option value="@i.Id">@i.Name</option>
+		}
+	</select>
+
+	<br />
+	<input type="submit" value="Create" />
+
+	
+
+</form>

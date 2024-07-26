@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F86E3302-29CA-4BC9-82E3-7820FA05C79E}|BlogApplication.csproj|c:\\users\\sinan\\onedrive\\masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\blogapplication\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F86E3302-29CA-4BC9-82E3-7820FA05C79E}|BlogApplication.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86E3302-29CA-4BC9-82E3-7820FA05C79E}|BlogApplication.csproj|c:\\users\\sinan\\onedrive\\masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\blogapplication\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F86E3302-29CA-4BC9-82E3-7820FA05C79E}|BlogApplication.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86E3302-29CA-4BC9-82E3-7820FA05C79E}|BlogApplication.csproj|c:\\users\\sinan\\onedrive\\masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\blogapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86E3302-29CA-4BC9-82E3-7820FA05C79E}|BlogApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18B72BC-603D-46F8-949E-F7D5881CB9A1}|..\\BlogApplication.Domain\\BlogApplication.Domain.csproj|c:\\users\\sinan\\onedrive\\masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\blogapplication.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 266,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEQAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T23:15:57.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication.Domain\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "..\\BlogApplication.Domain\\Entities\\Comment.cs",
+              "ToolTip": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication.Domain\\Entities\\Comment.cs",
+              "RelativeToolTip": "..\\BlogApplication.Domain\\Entities\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T22:38:49.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAgwEcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T21:20:46.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Sinan\\OneDrive\\Masa\u00FCst\u00FC\\bootcamp_capstone_blogapplication\\BlogApplication\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAowEoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T21:27:20.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

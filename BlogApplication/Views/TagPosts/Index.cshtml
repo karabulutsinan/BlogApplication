@@ -1,0 +1,30 @@
+﻿@model BlogApplication.Web.ViewModels.TagWithPostsViewModel
+
+@{
+    ViewData["Title"] = "Posts for Tag: " + Model.Name;
+}
+<div class="text-end  ">
+            <button class="rounded border-0 m-2 "><a asp-action="Index" asp-controller="Tag" class="text-decoration-none text-dark">Taglere Dön</a></button>
+        </div>
+<h1>Posts for Tag: @Model.Name</h1>
+
+<table class="table  table-dark">
+    <thead class="text-center">
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>UserName</th>
+        </tr>
+    </thea>
+    <tbody>
+        @foreach (var post in Model.Posts)
+        {
+                 <tr class="text-center position-relative" style="vertical-align: middle !important;">
+                    <td ><img style="width:140px;" src="@post.ImageURL"></img></td>
+                    <td><a href="@Url.Action("Details", "Home", new { id = post.Id })" class="btn btn-primary">@post.Title</a></td>
+                    <td>@post.User.Username</td>
+
+                </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<BlogApplication.Web.ViewModels.TagWithPostsViewModel>
+
+@{
+    ViewData["Title"] = "Tags";
+}
+
+<div class="text-end  ">
+            <button class="rounded border-0 m-2 "><a asp-action="Index" asp-controller="Home"  class="text-decoration-none text-dark">Anasayfaya Dön</a></button>
+        </div>
+<h1>Tags</h1>
+<table class="table table-dark text-center">
+    <thead >
+        <tr>
+            <th>Name</th>
+            <th>Posts Count</th>
+            <th>View Posts</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tag in Model)
+        {
+                <tr>
+                    <td>@tag.Name</td>
+                    <td>@tag.PostsCount</td>
+                    
+                    <td>
+                    @if (tag.PostsCount > 0)
+                    {
+                                <a href="@Url.Action("Index", "TagPosts", new { id = tag.Id })" class="btn btn-primary">View Posts</a>
+                    }
+                    else
+                    {
+                                <button class="btn btn-secondary" disabled>No Posts</button>
+                    }
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

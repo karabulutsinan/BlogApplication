@@ -1,0 +1,11 @@
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\bin\Debug\net8.0\BlogApplication.Domain.deps.json
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\bin\Debug\net8.0\BlogApplication.Domain.dll
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\bin\Debug\net8.0\BlogApplication.Domain.pdb
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\BlogApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\BlogApplication.Domain.AssemblyInfoInputs.cache
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\BlogApplication.Domain.AssemblyInfo.cs
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\BlogApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\BlogApplication.Domain.dll
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\refint\BlogApplication.Domain.dll
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\BlogApplication.Domain.pdb
+C:\Users\Sinan\OneDrive\Masaüstü\bootcamp_capstone_blogapplication\BlogApplication.Domain\obj\Debug\net8.0\ref\BlogApplication.Domain.dll

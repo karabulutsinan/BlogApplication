@@ -1,0 +1,72 @@
+﻿@using BlogApplication.Models.Auth;
+@model LoginDTO
+@{
+	Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+@section Scripts {
+
+	@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+	{
+						<script type="text/javascript">
+							Swal.fire({
+							  icon: "error",
+							  title: "@ViewBag.ErrorMessage",
+							  showConfirmButton: false,
+							  timer: 1500
+							});
+						</script>
+	}
+
+	@if (!string.IsNullOrEmpty(ViewBag.Message))
+	{
+								<script type="text/javascript">
+									Swal.fire({
+									  icon: "success",
+									  title: "@ViewBag.Message",
+									  showConfirmButton: false,
+									  timer: 1500,
+									  didClose:(toast)=>{
+										  window.location.href="/";
+									  }
+									});
+								</script>
+	}
+}
+
+
+<div class="bg">
+
+
+</div>
+
+ <main class="form-signin">
+
+	  <h1 class="h3">Login</h1>
+
+	<form action="Login" method="POST">
+
+	  <div class="form-floating">
+		<input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required asp-for="UsernameOrEmail" >
+		<label for="floatingInput">Email address</label>
+	  </div>
+
+	  <br />
+
+	  <div class="form-floating">
+		<input type="password" class="form-control" id="floatingPassword" placeholder="Password" required asp-for="Password">
+		<label for="floatingPassword">Password</label>
+	  </div>
+
+	  <div class="checkbox mb-3">
+		  <div class="form-check form-switch">
+		  <input class="form-check-input" type="checkbox" value="1" name="remember_me" id="rememberMeSwitch">
+		  <label class="form-check-label" for="rememberMeSwitch"> Remember me</label>
+	  </div>
+	  <button class="w-100 btn btn-lg" type="submit">Sign in</button>
+	  </div>
+	  
+	  <a class="w-100 btn btn-lg" asp-action="Register" asp-controller="Auth">Kayıt Ol</a>
+	</form>
+		  <p class="copyright">&copy; 2024</p>
+  </main>
